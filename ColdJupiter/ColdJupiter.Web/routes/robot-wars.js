@@ -8,10 +8,10 @@ router.get('/', function (req, res) {
 });
 
 router.post('/', function (req, res) {
-	var data = JSON.parse(req.body.data);
-
-	var application = new RobotWarsApplicationService(data);
-	var result = application.process();
+    var data = JSON.parse(req.body.data);
+    
+    var application = new RobotWarsApplicationService(data);
+    var result = application.process();
     
     res.send(result);
 });

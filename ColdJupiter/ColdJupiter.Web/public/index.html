@@ -12,7 +12,14 @@
 <body>
     <div class="container" ng-app="cold-jupiter" ng-controller="RobotWarsController as vm">
         <h1>{{vm.title}}</h1>
-        <span>{{vm.now}}</span>
+        <div>{{vm.now}}</div>
+        <div><strong>request</strong></div>
+        <textarea rows="10" cols="100" ng-model="vm.request">{{vm.request}}</textarea>
+        <div><strong>response</strong></div>
+        <textarea rows="10" cols="100">{{vm.response}}</textarea>
+        <div>
+            <button ng-click="vm.engage()">engage</button>
+        </div>
     </div>
 </body>
 </html>
