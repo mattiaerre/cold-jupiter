@@ -1,0 +1,3 @@
+﻿// 1. what about conflicts? do we need to take into account something like a robot.canGoTo(position) method
+// 2. bad input management at the application service level
+// 3. ...

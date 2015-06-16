@@ -42,6 +42,7 @@
     <Compile Include="routes\robot-wars.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
+    <Compile Include="test\domain\open-points-tests.js" />
     <Compile Include="test\domain\robot-driver-tests.js" />
     <Compile Include="test\domain\robot-tests.js">
       <SubType>Code</SubType>

@@ -1,4 +1,6 @@
-﻿var Robot = require('./robot');
+﻿// info: not really needed at the moment I think
+
+var Robot = require('./robot');
 
 function RobotFactory() {
 };
