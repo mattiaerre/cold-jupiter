@@ -1,5 +1,4 @@
 [Oo]bj/
-[Bb]in/
 .nuget/
 _ReSharper.*
 packages/
@@ -12,3 +11,4 @@ artifacts/
 *.ncrunchproject
 *.dat
 node_modules/
+*.ncrunchsolution
