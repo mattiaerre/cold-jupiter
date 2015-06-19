@@ -36,6 +36,7 @@
     <Compile Include="app\domain\robot-factory.js" />
     <Compile Include="app\domain\robot-wars-application-service.js" />
     <Compile Include="app\domain\robot.js" />
+    <Compile Include="bootstrap.js" />
     <Compile Include="public\app\app.module.js" />
     <Compile Include="public\app\robot-wars.controller.js" />
     <Compile Include="routes\index.js" />
